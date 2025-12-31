@@ -48,19 +48,21 @@ const PrintPortfolio = () => {
             <tbody>
               <tr className="border-b border-gray-200">
                 <td className="py-2 font-medium w-1/3">Họ và tên:</td>
-                <td className="py-2">Nguyễn Văn A</td>
+                <td className="py-2">Trần Mai Hương</td>
               </tr>
               <tr className="border-b border-gray-200">
                 <td className="py-2 font-medium">Ngành học:</td>
-                <td className="py-2">Công nghệ Thông tin</td>
+                <td className="py-2">Kinh tế chính trị</td>
               </tr>
               <tr className="border-b border-gray-200">
                 <td className="py-2 font-medium">Trường:</td>
-                <td className="py-2">Đại học ABC</td>
+                <td className="py-2">Trường Đại học Kinh tế - ĐHQGHN</td>
               </tr>
               <tr className="border-b border-gray-200">
                 <td className="py-2 font-medium">Năm học:</td>
-                <td className="py-2">Năm 2</td>
+                <td className="py-2">Năm 1
+                
+                </td>
               </tr>
             </tbody>
           </table>
