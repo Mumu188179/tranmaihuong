@@ -1,6 +1,24 @@
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Target, FileText, Image, CheckCircle } from "lucide-react";
 import Layout from "@/components/Layout";
+
+// Import evidence images
+import bai1Evidence from "@/assets/bai1-evidence.jpg";
+import bai2Evidence from "@/assets/bai2-evidence.jpg";
+import bai3Evidence from "@/assets/bai3-evidence.jpg";
+import bai4Evidence from "@/assets/bai4-evidence.jpg";
+import bai5Evidence from "@/assets/bai5-evidence.jpg";
+import bai6Evidence from "@/assets/bai6-evidence.jpg";
+
+const evidenceImages: { [key: number]: string } = {
+  1: bai1Evidence,
+  2: bai2Evidence,
+  3: bai3Evidence,
+  4: bai4Evidence,
+  5: bai5Evidence,
+  6: bai6Evidence,
+};
+
 const projectsData = [
   {
     id: 1,
@@ -216,15 +234,18 @@ const ProjectDetail = () => {
                     ))}
                   </ul>
                   
-                  {/* Placeholder for actual evidence */}
-                  <div className="mt-6 p-8 rounded-xl border-2 border-dashed border-border bg-muted/30 text-center">
-                    <Image className="w-10 h-10 mx-auto mb-3 text-muted-foreground/50" />
-                    <p className="text-sm text-muted-foreground">
-                      Khu vực hiển thị ảnh/video minh chứng
-                    </p>
-                    <p className="text-xs text-muted-foreground/70 mt-1">
-                      (Thêm ảnh chụp màn hình, link file, hoặc embed video tại đây)
-                    </p>
+                  {/* Evidence Image */}
+                  <div className="mt-6 rounded-xl overflow-hidden border border-border">
+                    <img 
+                      src={evidenceImages[project.id]} 
+                      alt={`Minh chứng ${project.title}`}
+                      className="w-full h-auto"
+                    />
+                    <div className="p-3 bg-muted/30 text-center">
+                      <p className="text-sm text-muted-foreground">
+                        Ảnh minh chứng bài tập {project.id}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
