@@ -168,8 +168,8 @@ const Conclusion = () => {
                 cộng đồng."
               </blockquote>
               <div className="mt-8 pt-6 border-t border-primary/10">
-                <p className="font-serif text-xl font-semibold text-foreground">Nguyễn Văn A</p>
-                <p className="text-muted-foreground mt-1">Sinh viên Công nghệ Thông tin</p>
+                <p className="font-serif text-xl font-semibold text-foreground">Trần Mai Hương</p>
+                <p className="text-muted-foreground mt-1">Sinh viên năm nhất - Kinh tế Chính trị - Đại học Kinh tế ĐHQGHN</p>
               </div>
             </div>
           </div>

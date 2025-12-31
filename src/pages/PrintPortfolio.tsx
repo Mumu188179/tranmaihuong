@@ -298,8 +298,8 @@ const PrintPortfolio = () => {
             cộng đồng."
           </blockquote>
           <div className="mt-4 pt-4 border-t border-red-200 text-center">
-            <p className="font-bold text-red-900">Nguyễn Văn A</p>
-            <p className="text-gray-600">Sinh viên Công nghệ Thông tin</p>
+            <p className="font-bold text-red-900">Trần Mai Hương</p>
+            <p className="text-gray-600">Sinh viên năm nhất - Kinh tế Chính trị - Đại học Kinh tế ĐHQGHN</p>
           </div>
         </div>
       </section>

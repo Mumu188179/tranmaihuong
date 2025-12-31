@@ -12,22 +12,22 @@ const About = () => {
             {/* Avatar */}
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-8 rounded-full bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg">
               <span className="text-5xl md:text-6xl font-serif font-bold text-primary-foreground">
-                SV
+                MH
               </span>
             </div>
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4">
               Xin chào, tôi là{" "}
-              <span className="gradient-text">Sinh Viên</span>
+              <span className="gradient-text">Trần Mai Hương</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Sinh viên ngành Công nghệ Thông tin
+              Sinh viên ngành Kinh tế Chính trị
             </p>
 
             <div className="flex flex-wrap justify-center gap-3">
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">
-                🎓 Năm 2
+                🎓 Năm nhất
               </span>
               <span className="px-4 py-2 rounded-full bg-accent/10 text-accent font-medium">
                 💻 Kỹ năng số
@@ -54,15 +54,15 @@ const About = () => {
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-center gap-3">
                     <span className="w-2 h-2 rounded-full bg-primary" />
-                    <span><strong className="text-foreground">Họ tên:</strong> Nguyễn Văn A</span>
+                    <span><strong className="text-foreground">Họ tên:</strong> Trần Mai Hương</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="w-2 h-2 rounded-full bg-primary" />
-                    <span><strong className="text-foreground">Ngành:</strong> Công nghệ Thông tin</span>
+                    <span><strong className="text-foreground">Ngành:</strong> Kinh tế Chính trị</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="w-2 h-2 rounded-full bg-primary" />
-                    <span><strong className="text-foreground">Trường:</strong> Đại học ABC</span>
+                    <span><strong className="text-foreground">Trường:</strong> Đại học Kinh tế - ĐHQGHN</span>
                   </li>
                 </ul>
               </div>
